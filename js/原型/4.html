@@ -1,0 +1,24 @@
+<script>
+    Perosn.prototype.say=function(){
+        console.log('hello')
+    }
+
+
+    function Person(){
+        this.name='Tom'
+    }
+    let p=new Perosn()
+    console.log(Person.prototype)   //函数的原型 ,也叫显示原型
+    console.log(p.constructor)       //p._proto__ 对象的原型，也叫隐式原型
+
+
+    Person.prototype===p._proto__
+
+
+
+
+    // p={
+    //        name:'Tom'
+    //        _proto__:Person.prototype(函数的隐式原型)
+    // }
+</script>
