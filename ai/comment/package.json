@@ -1,0 +1,15 @@
+{
+  "name": "comment",
+  "version": "1.0.0",
+  "description": "- openai\r   -用户体验优化了\r  百度搜索 广告+选择,文本匹配\r - openai 是刷新了一亿用户最新记录 没有广告，更懂我们\r -搭上openai,迅速完成nlp任务，厉害\r - npm init -y",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "openai": "^4.47.1"
+  }
+}
