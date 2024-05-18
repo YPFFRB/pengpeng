@@ -11,11 +11,11 @@
  */
 const game=(action)=>{
     const arr=['rock','scissor','paper'];
-    // 输入校验
+  // 输入校验
     if(['rock','scissor','paper'].indexOf(action)==-1){
         throw new Error('用户输入错误');
     }
-   let computerAction;
+    let computerAction;
     let random=Math.floor(Math.random()*3)
     computerAction=arr[random];
     console.log('电脑出了'+computerAction);
@@ -38,9 +38,9 @@ const game=(action)=>{
 let  winCount =0;
 process.stdin.on('data',(buffer)=>{
     //存储和通信的底层是二进制
-    console.log(buffer);
+    //console.log(buffer);
     const action=buffer.toString().trim();
-   // console.log(action,'------');
+    // console.log(action,'------');
     // 独立的随机出拳业务
     const result =game(action);
 

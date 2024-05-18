@@ -8,15 +8,16 @@ const client=new OpenAI({
     apiKey:'sk-9NHKQSrmqI5FOnZyq6kciKc57iPq5fvUY7ccestlJw7D8d5z',
     baseURL:'https://api.chatanywhere.tech/v1'
 })
- async function main(){
+async function main(){
     const chartCompletion=await  client.chat.completions.create(
         {
             messages:[{roles:'user',content:'你是谁'}],
             model:'gpt-3.5-turbo'
         }
     )
-     console.log(chartCompletion.choices[0])
- }
+    console.log(chartCompletion.choices[0])
+}
 
- main()
+main()
+
 

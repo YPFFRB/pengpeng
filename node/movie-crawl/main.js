@@ -3,7 +3,7 @@ let cheerio = require('cheerio') // 需要安装
 let fs = require('fs')
 const util = require('util')
 let movies = []
-let basicUrl = 'https://movie.douban.com/top250'
+const basicUrl = 'https://movie.douban.com/top250'
 let once = function (cb) {
     let active = false
     if (!active) {
