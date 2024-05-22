@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .left, .right {
+            height: 200px;
+            width: 200px;
+            background-color: aquamarine;
+        }
+
+        .page > div {
+          float: left;
+        }
+
+        .content {
+            height: 200px;
+            background-color: red;
+            width: 100%;
+        }
+        .left{
+            margin-left: -100%;
+        }
+    </style>
+</head>
+<body>
+<div class="page">
+    <div class="content">
+        <div class="ineer">主体内容</div>
+    </div>
+    <div class="left">
+        广告位
+    </div>
+    <div class="right">
+         广告位
+    </div>
+</div>
+</body>
+</html>

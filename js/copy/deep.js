@@ -1,5 +1,5 @@
 const user={
-  age:18;
+  age:18
 }
 function deep(obj){
     let newObj={}
