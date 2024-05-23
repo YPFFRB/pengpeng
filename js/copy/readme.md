@@ -24,7 +24,7 @@
 2.不能拷贝 undefined Symbol function 类型的值
 3.不能处理循环引用
 
--structuredClone();
+structuredClone();
 
 
 #深拷贝
