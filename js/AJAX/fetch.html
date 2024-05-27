@@ -15,7 +15,7 @@
   let btn=document.getElementById('btn')
   btn.addEventListener('click',()=>{
     //朝一个接口发请求,获取到数据展示在页面上
-    fetch("https://mock.mengxuegu.com/mock/65a91543c4cd67421b34c898/movie/movieList#!method=get?username='晏总'&age=18").then((res)=> {
+    fetch("https://mock.mengxuegu.com/mock/65a91543c4cd67421b34c898/movie/movieList?username='晏总'&age=18").then((res)=> {
       //console.log(res); //响应体
       return res.json()
     })
