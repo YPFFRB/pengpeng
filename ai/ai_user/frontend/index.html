@@ -36,16 +36,15 @@
         <form name="aiForm" method="get" action="http://www.baidu.com">
             <div class="form-group">
                 <label for="questionInput">向AI助理提问:</label>
-                <input type="text" name = "question" class="form-control" id="questionInput" placeholder="请输入你想提问的users相关问题">
+                <input type="text" name="question" class="form-control" id="questionInput"
+                       placeholder="请输入你想提问的users相关问题">
             </div>
             <button type="submit" class="btn btn-default">提交</button>
         </form>
     </div>
     <div class="row" id="message">
-
     </div>
 </div>
-
 <script>
     const oMessage = document.querySelector('#message')
     const oBody = document.querySelector('#user_table tbody')
@@ -65,7 +64,7 @@
                 </tr>
             `).join('')
         })
-    oForm.addEventListener('submit', function(event){
+    oForm.addEventListener('submit', function (event) {
         // 阻止表单的默认行为
         event.preventDefault()
         // name 属性去找 性能更好
