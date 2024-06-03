@@ -44,11 +44,12 @@
     </div>
     <div class="row" id="message">
     </div>
+
 </div>
 <script>
     const oMessage = document.querySelector('#message')
     const oBody = document.querySelector('#user_table tbody')
-    const oForm = document.forms['aiForm']
+    const oForm = document.forms['aiForm'];
     let usersData = []
     fetch('http://localhost:3000/users')
         .then(data => data.json())

@@ -1,0 +1,34 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "徐总",
+      "hometown": "丰城"
+    },
+    {
+      "id": "2",
+      "name": "fu",
+      "hometowm": "高安"
+    },
+    {
+      "id": "3",
+      "name": "luo",
+      "hometown": "赣州"
+    },
+    {
+      "id": "3",
+      "name": "瑜大",
+      "hometown": "抚州"
+    }
+  ],
+  "posts": [
+    {
+      "id": "7373645539457630249",
+      "title": "Coze:零代码AI应用开发的新革命"
+    },
+    {
+      "id": "7372871883338006591",
+      "title": "你所不知道的知识~深入理解AJAX:异步JavaScript和XML"
+    }
+  ]
+}
