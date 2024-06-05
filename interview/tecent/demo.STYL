@@ -4,7 +4,6 @@
 
 .accordion
     width 300px
-
     article
         cursor pointer
         & + article
@@ -15,21 +14,20 @@
         &:nth-child(3):checked ~ article:nth-of-type(3) p,
             max-height 600px
     label
-    display block
-    height 40px
-    padding 0 20px
-    background-color #f66
-    cursor pointer
-    line-height 40px
-    font-size 16px
-    color: #fff
-
-  p
-    overflow hidden
-    padding 0 20px
-    border 1px solid #f66
-    border-top none
-    border-bottom-width 0
-    max-height 0
-    line-height 30px
-    transition all 500ms
+        display block
+        height 40px
+        padding 0 20px
+        background-color #f66
+        cursor pointer
+        line-height 40px
+        font-size 16px
+        color: #fff
+    p
+        overflow hidden
+        padding 0 20px
+        border 1px solid #f66
+        border-top none
+        border-bottom-width 0
+        max-height 0
+        line-height 30px
+        transition all 500ms
