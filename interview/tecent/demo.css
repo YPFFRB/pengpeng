@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.accordion {
+  width: 300px;
+}
+.accordion article {
+  cursor: pointer;
+}
+.accordion article + article {
+  margin-top: 5px;
+}
+.accordion label {
+  display: block;
+  height: 40px;
+  padding: 0 20px;
+  background-color: #f66;
+  cursor: pointer;
+  line-height: 40px;
+  font-size: 16px;
+  color: #fff;
+}
+.accordion p {
+  overflow: hidden;
+  padding: 0 20px;
+  border: 1px solid #f66;
+  border-top: none;
+  border-bottom-width: 0;
+  max-height: 0;
+  line-height: 30px;
+  transition: all 500ms;
+}
