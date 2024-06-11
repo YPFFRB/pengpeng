@@ -15,5 +15,12 @@ Page({
         })
     }, 1000)
     
-  }
+  },
+testDrive(){
+
+  console.log('预约试驾')
+}
+  learnMore(){
+  console.log('了解更多')
+}
 })
