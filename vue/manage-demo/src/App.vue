@@ -16,4 +16,8 @@
 ul li{
     list-style: none;
 }
+a{
+    color: white;
+    text-decoration: none;
+}
 </style>

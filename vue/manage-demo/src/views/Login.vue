@@ -3,21 +3,34 @@
     <h3>图书管理系统</h3>
     <div class="user">
         <span>账号</span>
-        <input type="text">
+        <input type="text" v-model="state.user">
     </div>
     <div class="pwd">
         <span>密码</span>
-        <input type="text">
+        <input type="text" v-model="state.pwd">
     </div>
     <div class="btn">
 
-        <button>登入</button>
+        <button @click="login">登入</button>
     </div>
 </div>
 </template>
 
 <script setup>
+import {reactive} from "vue";
+import {useRouter} from 'vue-router'
 
+const state=reactive({
+    user:'',
+    pwd:'',
+})
+const  router=useRouter()
+const login=()=>{
+    if (state.user!=='' &&state.pwd!==''){
+        localStorage.setItem('user',state.user)
+        router.push('/home')
+    }
+}
 </script>
 <style lang="css" scoped>
 .login{
