@@ -1,0 +1,17 @@
+{
+  "name": "node-learn",
+  "version": "1.0.0",
+  "description": "node 学习",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "node index.js ",
+    "hello": "echo hello world",
+    "dev": "  npm run hello && node index.js"
+  },
+  "author": "fyp",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
