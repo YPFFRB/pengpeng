@@ -30,6 +30,6 @@ const server = http.createServer((req, res) => {
         res.end(content);
     }
 });
-server.listen(3000, () => {
+server.listen(3300, () => {
     console.log('Server running at http://127.0.0.1:3000/');
 });
