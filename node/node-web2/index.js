@@ -26,11 +26,10 @@ const server=http.createServer((req,res)=>{
         //console.log(__dirname);
         const _url=path.resolve(__dirname,'assets/404.html')
        // console.log(_url);
-      const content= fs.readFileSync(_url,{encoding:'utf-8'})
+        const content= fs.readFileSync(_url,{encoding:'utf-8'})
         console.log(content);
         res.end(content)
     }
-
 })
 server.listen(3100,()=>{
     console.log('listening on port 3100');
