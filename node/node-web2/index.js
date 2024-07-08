@@ -34,3 +34,19 @@ const server=http.createServer((req,res)=>{
 server.listen(3100,()=>{
     console.log('listening on port 3100');
 })
+// listening on port 3100
+// Url {
+//     protocol: null,
+//         slashes: null,
+//         auth: null,
+//         host: null,
+//         port: null,
+//         hostname: null,
+//         hash: null,
+//         search: null,
+//         query: null,
+//         pathname: '/user',
+//         path: '/user',
+//         href: '/user'
+// }
+

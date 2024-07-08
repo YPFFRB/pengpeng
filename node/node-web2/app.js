@@ -1,10 +1,12 @@
-const koa=require('koa');
+const Koa=require('koa');
 const app=new Koa()
-
-const main=()=>{
-    ctx.body='Hello world'
-}
-app.use(main)
-app.listen(3004,()=>{
+const router=require('./router/user.js')
+// const main=(ctx)=>{
+//     ctx.body='Hello world'
+// }
+//
+// app.use(main)
+app.use(router.routes())//让路由生效,
+app.listen(3078,()=>{
     console.log('项目已经启动');
 })
