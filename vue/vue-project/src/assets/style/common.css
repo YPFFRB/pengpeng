@@ -9,11 +9,10 @@ body, div, span, header, footer, nav, section, aside, article, ul, dl, dt, dd, l
     box-sizing: border-box;
     font-weight: lighter;
     font-family: 'Microsoft YaHei';
-    -webkit-tap-highlight-color:transparent;
-&:focus {
+    -webkit-tap-highlight-color:transparent}
+:focus {
      outline: none;
  }
-}
 
 
 html{
